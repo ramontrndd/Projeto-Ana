@@ -39,5 +39,6 @@ a{
 }
 div > a > li {
     font-weight: bold;
+    color: black;
 
 }
