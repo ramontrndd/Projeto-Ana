@@ -6,8 +6,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #ECEBEB;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #ECEBEB;
 }
 #name-header{
     color: var(--color1);
@@ -39,6 +41,23 @@ a{
 }
 div > a > li {
     font-weight: bold;
-    color: black;
+    color: #C76071;
+}
+.welcome > h1{
+    text-align: center;
+    margin-top: 2.5rem;
+    color: var(--color1)
+}
 
+.welcome > p {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--color1);
+    }
+.welcome{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 250px;
+    width: 100vw;
 }

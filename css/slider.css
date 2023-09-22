@@ -1,13 +1,15 @@
 @charset "UTF8";
 :root{
-    --cor0: #007fe8;
-    --cor1: #0d52ff;
+    --cor0: #C76071;
+    --cor1: #f10028;
 }
-
+.slide-txt, .slide-p{
+    display: none;
+}
 section.slider{
     margin: 0 auto;
-    width: 80%;
-    height: 400px;
+    width: 100%;
+    height: 500px;
     padding: 0;
     overflow: hidden;
 }
@@ -45,11 +47,12 @@ section.slider{
 }
 .slide-box img{
     width: 100%;
+    
 }
 .nav-manual, .nav-auto{
     position: absolute;
     width: 100%;
-    margin-top: 30%;
+    margin-top: 25%;
     left: 0%;
     display: flex;
     justify-content: center;
