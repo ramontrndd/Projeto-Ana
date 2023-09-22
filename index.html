@@ -8,22 +8,31 @@
     <link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
-    <header>
-    <div class="conteiner">
-        <div class="header">
-            <img src="assets/logo.png" alt="logo de assinatura">
-            <h3 id="name-header">ANA BEATRIZ DESIGNER</h3>
-        </div>
-       <div class="menu">
-            <a href="#"><li>Início</li></a>
-            <a href="#"><li>Trabalhos</li></a>
-            <a href="#"><li>Agenda Online</li></a>
-            <a href="#"><li>Contato</li></a>
-            <a href="#"><li>Sobre</li></a>
-       </div>
-    </div>
-    <section class="slider" >
 
+                                                                            <!-- NAV BAR -->
+  <header>
+    <nav>
+      <div class="name-logo">
+      <a class="logo" href="/">Ana Beatriz Designer</a>
+      <img src="assets/logo.png" alt="">
+      </div>
+
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Trabalhos</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+                                                                              <!-- SLIDER -->
+    <section class="slider" >
         <div class="slider-content">
     
           <input type="radio" name="btn-radio" id="radio1">
@@ -82,15 +91,16 @@
           
         </div>
       </section>
-
-      <div class="welcome">
+<main>
+        <div class="welcome">
         <h1>Bem-vindo à <br>Ana Beatriz Design</h1>
         <p>Desde 2018, ofereço soluções de design criativas e inovadoras. Minha clientela engloba empresários locais e grandes corporações que buscam contar sua história através de um design original.</p>
       </div>
-      <img src="assets/about.webp" alt="" class="about">
+</main>
+
       
 
-</header>
-<script src="scripts/slider"></script>
+<script src="scripts/slider.js"></script>
+<script src="scripts/mobile-navbar.js"></script>
 </body>
 </html>
